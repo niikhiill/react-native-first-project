@@ -1,9 +1,10 @@
 import React from 'react';
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, Image} from "react-native";
 
 const ImageDetail = (props)=>{
 return(
 <View style= {StyleSheet.ViewStyle}>
+<Image source={props.imageSource} />
 <Text>{props.title}</Text>
 </View>
 )
@@ -11,7 +12,7 @@ return(
 
 const Style = StyleSheet.create({
 ViewStyle: {
-    paddingTop: 30
+    paddingTop: 100
 }
 });
 

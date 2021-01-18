@@ -5,12 +5,17 @@ import HomeScreen from './ComponentsScreen/HomeScreen';
 import ImageScreen from './ComponentsScreen/ImageScreen';
 
 const App = () =>{
-
-    return <ImageScreen/>
+  return(
+<View style= {StyleSheet.ViewStyle} >
+ <ImageScreen/>
+</View>
+  )
 };
 
 const Style = StyleSheet.create({
-
+  ViewStyle: {
+    paddingTop: 50
+}
 });
 
 export default App;

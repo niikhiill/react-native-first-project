@@ -5,16 +5,16 @@ import ImageDetail from "../Components/ImageDetail";
 const ImageScreen = ()=>{
 return(
 <View style= {StyleSheet.ViewStyle}>
-<ImageDetail title="Forest" />
-<ImageDetail title="Beach" />
-<ImageDetail title="Mountain" />
+<ImageDetail title="Forest" imageSource= {require('../Assests/forest.jpg')} />
+<ImageDetail title="Beach" imageSource= {require('../Assests/beach.jpg')}/>
+<ImageDetail title="Mountain" imageSource= {require('../Assests/mountain.jpg')}/>
 </View>
 )
 };
 
 const Style = StyleSheet.create({
     ViewStyle: {
-        paddingTop: 30
+        paddingTop:100
     }
 });
 
