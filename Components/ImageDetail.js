@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Image} from "react-native";
 
 const ImageDetail = (props)=>{
 return(
-<View style= {StyleSheet.ViewStyle}>
+<View style= {Style.ViewStyle}>
 <Image source={props.imageSource} />
 <Text>{props.title}</Text>
 </View>

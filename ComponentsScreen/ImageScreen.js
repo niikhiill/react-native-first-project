@@ -4,7 +4,7 @@ import ImageDetail from "../Components/ImageDetail";
 
 const ImageScreen = ()=>{
 return(
-<View style= {StyleSheet.ViewStyle}>
+<View style= {Style.ViewStyle}>
 <ImageDetail title="Forest" imageSource= {require('../Assests/forest.jpg')} />
 <ImageDetail title="Beach" imageSource= {require('../Assests/beach.jpg')}/>
 <ImageDetail title="Mountain" imageSource= {require('../Assests/mountain.jpg')}/>
@@ -14,7 +14,8 @@ return(
 
 const Style = StyleSheet.create({
     ViewStyle: {
-        paddingTop:100
+       flex: 1,
+       justifyContent: "center"
     }
 });
 
